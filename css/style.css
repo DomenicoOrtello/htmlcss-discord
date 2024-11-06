@@ -14,38 +14,86 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+#logo{
+    width: 7%;
+}
 
 .white{
     color: white;
 }
-
 .nav{
     display: flex;
     flex-direction: row;
     font-size: 10px;
-}
 
-header div.flex-nav p{
-    margin: 8px;
 }
-
 .flex-nav{
     background-color: #255ee9;
-    padding: 6px 0;
+    padding: 0.4rem 0;
     flex-direction: row;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-header div.flex-nav .login{
-    padding: 6px;
+header div.flex-nav .button{
+    padding: 0.4rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-collapse: collapse;
+    border: #85a4f2;
+    border-color: #85a4f2;
     font-size: 10px;
 }
 
+h1.item-titolo{
+    color: white;
+}
+
+p{
+    color: white; 
+}
+
 .header-flex{
-    background-color: #628cf7;
-    padding: 46px 0;
+    background-color: hsl(223, 64%, 53%);
+    padding: 10rem 0rem;
+    text-align: center;
+    background-image: url(img/jumbo.png);
+}
+
+#button1{
+    background-color: white;
+    padding: 0.4rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-collapse: collapse;
+    border: #85a4f2;
+    border-color: #85a4f2;
+    font-size: 12px;
+}
+
+#button2{
+    padding: 0.4rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-collapse: collapse;
+    border: #85a4f2;
+    border-color: #85a4f2;
+    font-size: 12px;
+    background-color: black;
+    color: white;
+}
+
+div.header-flex .button{
+    margin-top: 2rem;
+    text-align: center;
+    margin-left: 2rem;
 }
 
 /*------------
@@ -55,28 +103,33 @@ header div.flex-nav .login{
 .main-flex {
     display: flex;
     background-color: rgb(238, 238, 238);
-    padding: 36px 0;
-    gap: 1px;
+    padding: 10rem 0rem;
+    gap: 3rem;
     justify-content: center;
 }
 
-.col-small{
-    background-color: #255ee9;
-    width: 33%;
+.item-img{
+    display: flex;
+    width: 35%;
+    text-align: center;
     align-self: center;
-    height: 112px;
+    height: 14rem;
 }
 
-.col-big{
-    background-color: grey;
+.item-info{
     width: 33%;
+    text-align: center;
+}
+
+h1.titolo1{
+    color: black;
 }
 
 .flex-second{
     display: flex;
     background-color: rgb(184, 184, 184);
-    padding: 36px 0;
-    gap: 1px;
+    padding: 10rem 0rem;
+    gap: 2.5rem;
     justify-content: center;
     flex-direction: row-reverse;
 
@@ -85,17 +138,42 @@ header div.flex-nav .login{
 .main-lastflex{
     display: flex;
     background-color: rgb(184, 184, 184);
-    padding: 160px 160px;
-    gap: 16px;
+    padding: 10rem 10rem;
+    gap: 2rem;
     justify-content: center;
     flex-direction:column-reverse;
 }
 
-.col-last{
+.item-img-last{
     width: 50%;
+    text-align: center;
     align-self: center;
-    height: 112px;
-    background-color: orange;
+    height: 14rem;
+    order: 1;
+    justify-content: center;
+}
+
+img.img-big{
+    justify-content: center;
+    align-items: center;
+    height: 120%;
+    width: 120%;
+}
+
+.item-info-last{
+    text-align: center;
+    order: 4;
+}
+
+div > h2{
+    text-align: center;
+    order: 0;
+}
+
+div.main-lastflex > button{
+    width: 10rem;
+    align-self: center;
+    order: -1;
 }
 
 /*----------
@@ -107,42 +185,73 @@ header div.flex-nav .login{
     flex-direction: row;
     justify-content: space-around;
     background-color: #23272a;
-    padding: 64px 48px 16px 48px;
-    column-gap: 1px;
+    padding: 4rem 3rem 1rem 3rem;
+    column-gap: 18px;
+}
+.titolo-footer{
+    width: 70%;
 }
 
-.col-first{
-    display: flex;
-    flex-direction: column;
-    background-color: green;
-    width: 40%;
-    height: 200px;
+.blue{
+    color:#6a81d2 ;
+    font-size: 10px;
+
 }
 
-.col-second{
+li{
+    margin: 0.5rem 0.1rem 0.1rem 0.1rem;
+    font-size: 10px;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.social{
     display: flex;
     flex-direction: column;
-    background-color: rgb(238, 238, 238);
-    width: 15%;
-    height: 200px;
 }
 
 .footer-logo-button{
     display: flex;
-    background-color: orange;
+    background-color: #23272a;
     align-items: flex-end;
-    margin: 8px 40px 8px 40px;
+    margin: 1rem 5rem 1rem 5rem;
     justify-content: space-between;
 }
 
 .end-footer{
     background-color: #222629;
-    height: 56px;
-    padding-top: 8px;
+    height: 7rem;
+    padding-top: 1rem;
+}
+
+header div.flex-nav p{
+    margin: 1rem;
 }
 
 hr{
     color: #4f5d8c;
-    margin: 8px 40px 8px 40px;
+    margin: 1rem 5rem 1rem 5rem;
     border: 1px solid #7187d9;
+}
+
+button.mac{
+    padding: 0.4rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-collapse: collapse;
+    border: #85a4f2;
+    border-color: #85a4f2;
+    font-size: 12px;
+    color: white;
+    background-color: hsl(223, 64%, 53%);
 }
