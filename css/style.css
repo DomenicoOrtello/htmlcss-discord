@@ -29,7 +29,7 @@
 }
 .flex-nav{
     background-color: #255ee9;
-    padding: 0.4rem 0;
+    padding: 6px 0;
     flex-direction: row;
     display: flex;
     justify-content: space-evenly;
@@ -37,11 +37,11 @@
 }
 
 header div.flex-nav .button{
-    padding: 0.4rem;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    padding: 6px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
     border-collapse: collapse;
     border: #85a4f2;
     border-color: #85a4f2;
@@ -58,18 +58,18 @@ p{
 
 .header-flex{
     background-color: hsl(223, 64%, 53%);
-    padding: 10rem 0rem;
+    padding: 10rem 0;
     text-align: center;
-    background-image: url(img/jumbo.png);
+    background-image: url(/img/jumbo.png);
 }
 
 #button1{
     background-color: white;
-    padding: 0.4rem;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    padding: 6px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
     border-collapse: collapse;
     border: #85a4f2;
     border-color: #85a4f2;
@@ -77,11 +77,11 @@ p{
 }
 
 #button2{
-    padding: 0.4rem;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    padding: 6px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
     border-collapse: collapse;
     border: #85a4f2;
     border-color: #85a4f2;
@@ -91,9 +91,9 @@ p{
 }
 
 div.header-flex .button{
-    margin-top: 2rem;
+    margin-top: 32px;
     text-align: center;
-    margin-left: 2rem;
+    margin-left: 32px;
 }
 
 /*------------
@@ -104,7 +104,7 @@ div.header-flex .button{
     display: flex;
     background-color: rgb(238, 238, 238);
     padding: 10rem 0rem;
-    gap: 3rem;
+    gap: 48px;
     justify-content: center;
 }
 
@@ -129,7 +129,7 @@ h1.titolo1{
     display: flex;
     background-color: rgb(184, 184, 184);
     padding: 10rem 0rem;
-    gap: 2.5rem;
+    gap: 40px;
     justify-content: center;
     flex-direction: row-reverse;
 
@@ -139,7 +139,7 @@ h1.titolo1{
     display: flex;
     background-color: rgb(184, 184, 184);
     padding: 10rem 10rem;
-    gap: 2rem;
+    gap: 32px;
     justify-content: center;
     flex-direction:column-reverse;
 }
@@ -185,7 +185,7 @@ div.main-lastflex > button{
     flex-direction: row;
     justify-content: space-around;
     background-color: #23272a;
-    padding: 4rem 3rem 1rem 3rem;
+    padding: 64px 40px 16px 40px;
     column-gap: 18px;
 }
 .titolo-footer{
@@ -210,7 +210,7 @@ ul{
 .links{
     display: flex;
     flex-direction: row;
-    gap: 5rem;
+    gap: 80px;
 }
 
 .social{
@@ -222,14 +222,14 @@ ul{
     display: flex;
     background-color: #23272a;
     align-items: flex-end;
-    margin: 1rem 5rem 1rem 5rem;
+    margin: 16px 80px 16px 80px;
     justify-content: space-between;
 }
 
 .end-footer{
     background-color: #222629;
     height: 7rem;
-    padding-top: 1rem;
+    padding-top: 16px;
 }
 
 header div.flex-nav p{
@@ -243,11 +243,11 @@ hr{
 }
 
 button.mac{
-    padding: 0.4rem;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    padding: 6px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
     border-collapse: collapse;
     border: #85a4f2;
     border-color: #85a4f2;
